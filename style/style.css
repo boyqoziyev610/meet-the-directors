@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   color: white;
+
+}
+
+body {
+    background-color: #333;
+}
+
+.avatar {
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid #79c8c8;
+}
+
+.name {
+    color: #79c8c8;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background: #F67E7E;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -25px;
+}
+
+
+
+.job {
+    font-size: 15px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background: #F67E7E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+}
+
+.plus ,.x{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+.icon:hover {
+    background: #79c8c9;;
+}
+
+.card {
+    width: 320px !important;
+    height: 250px !important;
+    background: #012F34;
+    position: relative;
+    padding-top: 25px;
+    cursor: pointer;
+    border: none !important;
+    transition: transform .2s ease;
+    text-align: center;
+    -webkit-transition: transform .2s ease;
+    -moz-transition: transform .2s ease;
+    -ms-transition: transform .2s ease;
+    -o-transition: transform .2s ease;
+}
+
+.wrapper {
+    width: 1020px;
+    height: 620px;
+    margin-bottom: 50px;
+}
+
+.card:active {
+    transform: rotateY(350deg);
+    -webkit-transform: rotateY(350deg);
+    -moz-transform: rotateY(350deg);
+    -ms-transform: rotateY(350deg);
+    -o-transform: rotateY(350deg);
+    display: none;
+}
+
+ 
+
+.x{
+    display: none;
+}
+
+
+.n2{
+    display: none;
+}
+
+
+.back,
+.platforms,
+.card:active .job,
+.card:active .name,
+.card:active .avatar,
+.card:active .plus {
+    display: none;
+}
+ 
+.card:active .n2,
+.card:active .platforms,
+.card:active .back {
+    display: block;
+    width: 230px;
+}
+.platforms i{
+    font-size: 23px;
+    
+}
+.platforms i:nth-child(2){
+    margin-left: 10px;
+}
+.platforms i:hover{
+    color: #333;
+}
+
+.card:active .icon{
+    background: #79c8c9;
+}
+
+
+.card:active .x{
+    display: block;
+}
+
+
+@media (max-width: 1050px) { 
+    .wrapper{
+        width: 660px;
+    }
+ }
+ @media (max-width: 700px) { 
+    .wrapper{
+        width: 320px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
